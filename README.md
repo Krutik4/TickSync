@@ -2,7 +2,7 @@
 
 TickSync is a real-time data engineering project that simulates a stock market feed using **Apache Kafka**, processes streaming data, and enables SQL-based analysis using **Amazon Athena** over a data lake stored in **Amazon S3**. The project demonstrates best practices in event-driven architecture, cloud-native data storage, and serverless analytics.
 
-## 🚀 Project Overview
+## Project Overview
 
 This project showcases a scalable data pipeline that:
 - Streams stock trading data in real-time using Kafka
@@ -12,9 +12,9 @@ This project showcases a scalable data pipeline that:
 
 It’s ideal for scenarios requiring low-latency ingestion, transformation, and querying of financial or time-series data.
 
-## 🛠️ Technologies & Skills Demonstrated
+## Technologies & Skills Demonstrated
 
-### 🔧 Tools & Services
+### Tools & Services 🔧
 - **Apache Kafka**: Handles real-time data streaming (producer + consumer)
 - **AWS EC2**: Hosts Kafka broker, producer, and consumer
 - **Amazon S3**: Stores raw and processed streaming data
@@ -23,7 +23,7 @@ It’s ideal for scenarios requiring low-latency ingestion, transformation, and 
 - **Amazon Athena**: Enables SQL-based querying directly over S3 data
 - **IAM Roles & Policies**: Manages permissions for EC2, Glue, and Athena
 
-### 💡 Skills Applied
+### Skills Applied 💡 
 - Real-time stream processing
 - Cloud-based data lake architecture
 - Serverless data analytics with AWS Athena
@@ -31,7 +31,7 @@ It’s ideal for scenarios requiring low-latency ingestion, transformation, and 
 - Data cataloging and schema evolution with Glue Crawlers
 - Infrastructure configuration via IAM roles and permission boundaries
 
-## 🧩 Architecture
+## Architecture
 
 ![Architecture](./Architecture.jpg)
 
@@ -41,7 +41,7 @@ It’s ideal for scenarios requiring low-latency ingestion, transformation, and 
 3. An **AWS Glue Crawler** scans the S3 bucket to infer the schema and update the **AWS Glue Data Catalog**.
 4. **Amazon Athena** queries the S3-backed tables using standard SQL for real-time insights.
 
-## 🔐 IAM Roles & Policies
+## IAM Roles & Policies 🔐
 
 To ensure secure access between services:
 
@@ -51,13 +51,13 @@ To ensure secure access between services:
 
 All IAM roles are configured with the principle of least privilege, ensuring each service has access only to the resources it requires.
 
-## 📈 Example Use Cases
+## Example Use Cases
 
 - Track and visualize live stock activity from streaming data
 - Run time-based queries (e.g., total trades in last 10 minutes)
 - Perform aggregation and filtering (e.g., top traded stocks by volume)
 
-## 🧪 Setup Guide
+## Setup Guide
 
 1. **Launch EC2 Instance**  
    Install and configure Apache Kafka + Python
@@ -84,7 +84,7 @@ Architecture diagram created by Darshil Parmar.
 
 ---
 
-## 📬 Contact
+## Contact 📬 
 
 **Krutik Panchal**  
 📧 krutikpanchal44@gmail.com 
