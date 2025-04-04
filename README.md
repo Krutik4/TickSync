@@ -88,7 +88,7 @@ Architecture diagram created by Darshil Parmar.
 
 **Krutik Panchal**  
 📧 krutikpanchal44@gmail.com 
-🔗 [LinkedIn]((https://www.linkedin.com/in/krutik-panchal4/)) • 🧠 MS in Data Science @ RIT
+🔗 [LinkedIn](https://www.linkedin.com/in/krutik-panchal4/) • 🧠 MS in Data Science @ RIT
 
 
 
